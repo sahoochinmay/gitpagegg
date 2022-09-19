@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+/* =========== google fonts =========== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+/* ======== base style ======= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+html {
+  background: #0a071a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+section,
+footer {
+  padding: 70px 0px;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #f5b70a;
+}
+
+p {
+  font-size: 1rem;
+  color: #c4c4c4;
+  line-height: 30px;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+i {
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding: 40px 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* /////////////////////////////
+///////////// Menu //////////////
+/////////////////////////////////
+*/
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.paginationBttns a {
+  padding: 5px 13px;
+  background: #212245;
+  color: #fff !important;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.paginationBttns a:hover {
+  background: #df2020;
+}
+
+.search__widget,
+.sorting__widget select {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #0a071a;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.search__widget input {
+  border: none;
+  color: white;
+  background: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.search__widget input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .search__widget {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .search__widget input {
+    width: 100%;
+    font-size: 0.8rem;
   }
+  .sorting__widget select {
+    width: 100% !important;
+    font-size: 0.8rem;
+  }
+}
+/* /////////////////////////////
+///////////// About //////////////
+/////////////////////////////////
+*/
+.about_restaurant{
+  
 }
