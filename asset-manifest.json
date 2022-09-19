@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gitpagegg/static/css/main.073c9b0a.css",
+    "main.js": "/gitpagegg/static/js/main.d0b2e15f.js",
+    "static/js/787.bfee4a1f.chunk.js": "/gitpagegg/static/js/787.bfee4a1f.chunk.js",
+    "static/media/logo.svg": "/gitpagegg/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/gitpagegg/index.html",
+    "main.073c9b0a.css.map": "/gitpagegg/static/css/main.073c9b0a.css.map",
+    "main.d0b2e15f.js.map": "/gitpagegg/static/js/main.d0b2e15f.js.map",
+    "787.bfee4a1f.chunk.js.map": "/gitpagegg/static/js/787.bfee4a1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d0b2e15f.js"
+  ]
+}
